@@ -1,0 +1,37 @@
+/* components/Analytics/Analytics.module.css */
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #4682b4; /* Dark Sky Blue */
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #87ceeb; /* Sky Blue */
+  color: #fff; /* White */
+  padding: 10px;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light Sky Blue */
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #add8e6; /* Medium Sky Blue */
+}
+
+.error {
+  color: red;
+}

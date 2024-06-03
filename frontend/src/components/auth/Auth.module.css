@@ -1,0 +1,122 @@
+/* src/components/auth/Auth.module.css */
+
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(242, 242, 242, 1);
+}
+
+.authForm {
+  width: 1066px;
+  height: 611px;
+  top: 95px;
+  left: 98px;
+  gap: 0px;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Jomhuria";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: center;
+  color: rgba(71, 68, 68, 1);
+}
+
+.switchForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.switchButton {
+  border-radius: 10px;
+  width: 200px;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0 0.7rem;
+  transition: box-shadow 0.4s;
+}
+
+.switchButton:hover,
+.switchButton:focus {
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+}
+
+.switchButton:active {
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+}
+
+.switchButton.active {
+  color: #141414;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.inputGroup label {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: right;
+  color: rgba(71, 68, 68, 1);
+  width: 120px;
+  margin-right: 1.5rem; /* Adjusted for more spacing */
+}
+
+.inputBox {
+  width: 388px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.inputBox.error {
+  border: 2px solid red;
+}
+
+.submitButton {
+  width: 274px;
+  height: 38px;
+  border-radius: 8px;
+  background: rgba(169, 188, 255, 1);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(71, 68, 68, 1);
+  margin-top: 1rem;
+  border: none; /* Removed border */
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.submitButton:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
